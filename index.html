@@ -13,18 +13,11 @@
     Designed and built by Michael M. Davis 
     http://www.davis13.com & http://www.westsidegeek.com & http://www.meadavis.com
 -->
+    <link rel="stylesheet" type="text/css" href="layout.css" />
+
     <style>
-        body { font-family:helvetica,sans-serif; font-size:16px; margin-top:3rem; }
-        
-        .nolisttype { list-style:none; }
-
-        header nav { position:fixed; top:0; left:0; right:0; padding:0.25rem; line-height:1rem; background-color:#157a24; }
-        header nav ul { width:100%; padding:0; margin:0;  }
-        header nav li { display:inline-block; width:23%; list-style-type:none; text-align:center;
-                        border:dotted maroon 0.05rem; border-left:0; border-right:0; margin:0.25rem; }
-        header nav li a { display:block; width: 100%; height:100%; padding:0.5rem; text-decoration:none; color:white; }
-
-        section { min-height:17rem; }
+        header nav { background-color:#157a24; }
+        header nav a { color:white; }
     </style>
 </head>
 <body>
@@ -39,47 +32,66 @@
         </nav>
         <h1>Teacha, teacha</h1>
     </header>
-
-    <section id="syllabi">
-        <h2>Syllabi</h2>
-        <ul>
-            <li>High School English:
-                <ul>
-                    <li>English I (Survey Lit)</li>
-                    <li>English II (American Lit)</li>
-                    <li>English III (British Lit)</li>
-                    <li>English IV (World Lit)</li>
-                    <li>English Electives (Latin Amer Lit, Creative Writing, Yearbook)</li>
-                    <li>Advanced Placement (English Lit, English Lang)</li>
-                </ul>
-            </li>
-            <li>Reading Specialist (Read 180 program)</li>
-            <li>Diverse Learners (Special Education)</li>
-        </ul>
-    </section>
-    
-    <section id="resources">
-        <h2>Resources</h2>
-        <ul>
-            <li><a href="http://www.chompchomp.com/menu.htm">Grammar Bytes</a></li>
-            <li><a href="https://www.englishworksheetsland.com/">English Worksheets Land</a></li>
-            <li><a href="https://www.readworks.org/">Read Works</a></li>
-            <li><a href="https://newsela.com/">Newsela</a></li>
-            <li><a href="https://www.commoncoresheets.com/">Common Core Sheets</a></li>
-            <li><a href="https://www.teacherspayteachers.com/">Teachers Pay Teachers</a></li>
-        </ul>
-    </section>
-    
-    <section id="about">
-        <h2>About</h2>
-        <ul class="nolisttype">
-            <li>Secondary Education Certification, Chicago State University, 2005</li>
-            <li>National Board Certification, 2011</li>
-            <li>M.S. in Curriculum and Instruction, Chicago State University, 2012</li>
-            <li>M.A. in Literacy, Northeastern Illinois University, 2017</li>
-        </ul>
-    </section>
-
+    <div id="main">
+        <section id="syllabi">
+            <h2>Syllabi Taught</h2>
+            <ul>
+                <li>High School English:
+                    <ul>
+                        <li>English I (Survey Lit)</li>
+                        <li>English II (American Lit)</li>
+                        <li>English III (British Lit)</li>
+                        <li>English IV (World Lit)</li>
+                        <li>English Electives (Latin Amer Lit, Creative Writing, Yearbook)</li>
+                        <li>Advanced Placement (English Lit, English Lang)</li>
+                    </ul>
+                </li>
+                <li>Reading Specialist (Read 180 program)</li>
+                <li>Diverse Learners (Special Education)</li>
+            </ul>
+        </section>
+        
+        <section id="resources">
+            <h2>Resources</h2>
+            <ul>
+                <li><a href="http://www.chompchomp.com/menu.htm">Grammar Bytes</a></li>
+                <li><a href="https://www.englishworksheetsland.com/">English Worksheets Land</a></li>
+                <li><a href="https://www.readworks.org/">Read Works</a></li>
+                <li><a href="https://newsela.com/">Newsela</a></li>
+                <li><a href="https://www.commoncoresheets.com/">Common Core Sheets</a></li>
+                <li><a href="https://www.teacherspayteachers.com/">Teachers Pay Teachers</a></li>
+            </ul>
+        </section>
+        
+        <section id="about">
+            <h2>About</h2>
+            <table>
+                <caption>Education</caption>
+                <tbody>
+                    <tr>
+                        <td>Secondary Education Certification</td>
+                        <td><em>Chicago State University</em></td>
+                        <td>2005</td>
+                    </tr>
+                    <tr>
+                        <td>National Board Certification</td>
+                        <td><em>National Board for Professional Teaching Standards</em></td>
+                        <td>2011</td>
+                    </tr>
+                    <tr>
+                        <td>M.S. in Curriculum and Instruction</td>
+                        <td><em>Chicago State University</em></td>
+                        <td>2012</td>
+                    </tr>
+                    <tr>
+                        <td>M.A. in Literacy</td>
+                        <td><em>Northeastern Illinois University</em></td>
+                        <td>2017</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
     <footer>
         <small> &copy; 2012-9 -- Mea Robinson-Davis</small>
         <br />
